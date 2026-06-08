@@ -16,6 +16,16 @@ retinopathy without relying on retinal image analysis?
 - **Labels:** 13 multilabel ophthalmological conditions
 - **Target variable:** Diabetic retinopathy (binary, 6.8% prevalence)
 
+## Data Access
+The BRSET dataset requires credentialed access through PhysioNet.
+
+- **Access:** Register and complete required training at physionet.org
+- **Dataset page:** https://physionet.org/content/brazilian-ophthalmological/
+- **Raw data is NOT included in this repository** in compliance with 
+  PhysioNet data use agreement
+- To reproduce this analysis, download the dataset after obtaining 
+  access and place `labels.csv` in the root directory
+
 ## Key Findings
 
 ### Clinical Insights
